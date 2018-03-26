@@ -48,8 +48,7 @@ message.channel.send({embed: {
   }
 });
 	
-	}
-});
+
 		
 client.on('message', message => {
 	var words = message.content.split(' ')
@@ -69,7 +68,7 @@ message.guild.channels.find("name", "helprequests").send({embed: {
       },
       {
         name: "Instructions",
-        value: "Dm " + name + " and ask them how they need assistance. If you cannot figure out how to help them ask another staff member to try."
+        value: "Dm the user and ask them how they need assistance. If you cannot figure out how to help them ask another staff member to try."
       }
     ],
     timestamp: new Date(),
