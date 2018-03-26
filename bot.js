@@ -1,9 +1,27 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const token = 'NDI3NzgxODM0NjE3NjUxMjEw.DZpiZQ.famnBTdoUbyotiTvMN4_Fvr4n2k';
+var PastebinAPI = require('pastebin-js'),
+pastebin = new PastebinAPI('devkey');
+pastebin
+  .getPaste('SWppkfq7')
+  .then(function (data) {
+    // data contains the raw paste
+    console.log(data);
+  })
+  .fail(function (err) {
+    // Something went wrong
+    console.log(err);
+  })
 
-ScriptLink = "TestScript"
-GameLink = "TestGame"
+
+
+ScriptLink = "   "
+GameLink = "   "
+
+
+
+
 
 client.on('ready', () => {
   console.log('I am ready!');
@@ -27,7 +45,7 @@ message.channel.send({embed: {
       },
       {
         name: "Game Link",
-        value: GameLink
+        value: data
       }
     ],
     timestamp: new Date(),
