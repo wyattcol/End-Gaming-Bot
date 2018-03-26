@@ -8,7 +8,7 @@ const token = 'NDI3NzgxODM0NjE3NjUxMjEw.DZrqUA.l5F8cuj1vlK4PB0gfanhQIIB7j8';
 
 ScriptLink = "http://fasttory.com/CnbU"
 GameLink = "https://www.roblox.com/games/13822889/Lumber-Tycoon-2"
-VideoLink = ""
+VideoLink = "https://www.youtube.com/watch?v=U4Qr3BVrIXk"
 
 
 
