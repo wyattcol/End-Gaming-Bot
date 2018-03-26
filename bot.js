@@ -44,7 +44,4 @@ message.channel.send({embed: {
   }
 });
 
-	}
-});
-
 client.login(token);
