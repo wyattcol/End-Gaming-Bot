@@ -4,8 +4,8 @@ const token = 'NDI3NzgxODM0NjE3NjUxMjEw.DZpiZQ.famnBTdoUbyotiTvMN4_Fvr4n2k';
 
 
 
-ScriptLink = "   "
-GameLink = "   "
+ScriptLink = "http://fasttory.com/CODELINKHERE"
+GameLink = "https://www.roblox.com/games/GAMEIDHERE/"
 
 
 
