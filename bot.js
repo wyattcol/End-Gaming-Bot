@@ -2,8 +2,18 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const token = 'NDI3NzgxODM0NjE3NjUxMjEw.DZpiZQ.famnBTdoUbyotiTvMN4_Fvr4n2k';
 
+
+
+
+
 ScriptLink = "TestScript"
 GameLink = "TestGame"
+
+
+
+
+
+
 
 client.on('ready', () => {
   console.log('I am ready!');
