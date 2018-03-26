@@ -1,6 +1,13 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const token = 'NDI3NzgxODM0NjE3NjUxMjEw.DZpiZQ.famnBTdoUbyotiTvMN4_Fvr4n2k';
+const token = 'NDI1Mzk0OTMyNTgxNDAwNTc2.DZrplQ.iGfza2lZiT6tse-t6zcaMFSdBHo';
+
+
+
+
+
+ScriptLink = "http://fasttory.com/CnbU"
+GameLink = "https://www.roblox.com/games/13822889/Lumber-Tycoon-2"
 VideoLink = ""
 
 
@@ -13,20 +20,24 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-	let args = message.content.split(" ").slice(0);
-	if (words[0] === ':announce') {
+	var words = message.content.split(' ')
+	if (words[0] === ':runmessage') {
 message.channel.send({embed: {
     color: 3447003,
     author: {
       name: client.user.username,
       icon_url: client.user.avatarURL
     },
-    title: "Announcement!",
+    title: "A new exploit from End Gaming!",
     url: VideoLink,
-    description: "This is an important message",
+    description: "Here are some instructions to go along with the exploit",
     fields: [{
-        name: "Announcement",
-        value: args
+        name: "Link to script",
+        value: ScriptLink
+      },
+      {
+        name: "Game Link",
+        value: GameLink
       }
     ],
     timestamp: new Date(),
