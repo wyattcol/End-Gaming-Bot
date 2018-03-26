@@ -48,38 +48,6 @@ message.channel.send({embed: {
   }
 });
 	
-
-		
-client.on('message', message => {
-	var words = message.content.split(' ')
-	if (words[0] === ':cshelp') {
-message.guild.channels.find("name", "helprequests").send({embed: {
-    color: 3447003,
-    author: {
-      name: client.user.username,
-      icon_url: client.user.avatarURL
-    },
-    title: "Help Request",
-    url: "",
-    description: "Someone needs help with something!",
-    fields: [{
-        name: "Users name",
-        value: name
-      },
-      {
-        name: "Instructions",
-        value: "Dm the user and ask them how they need assistance. If you cannot figure out how to help them ask another staff member to try."
-      }
-    ],
-    timestamp: new Date(),
-    footer: {
-      icon_url: client.user.avatarURL,
-      text: " "
-    }
-  }
-});
-		
-
 	}
 });
 
