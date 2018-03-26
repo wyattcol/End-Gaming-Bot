@@ -47,7 +47,9 @@ message.channel.send({embed: {
     }
   }
 });
-		
+	
+	}
+});
 		
 client.on('message', message => {
 	var words = message.content.split(' ')
