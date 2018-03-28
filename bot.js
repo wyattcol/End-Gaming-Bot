@@ -6,9 +6,9 @@ const token = 'NDI3NzgxODM0NjE3NjUxMjEw.DZrqUA.l5F8cuj1vlK4PB0gfanhQIIB7j8';
 
 
 
-ScriptLink = "http://rapidteria.com/5TMt"
-GameLink = "https://www.roblox.com/games/654732683/Car-Crushers-2-Beta"
-VideoLink = "https://www.youtube.com/watch?v=9ryAS102lLI&feature=youtu.be"
+ScriptLink = "AUTO FARM http://rapidteria.com/8XoT ROYAL JELLY http://rapidteria.com/8XpB"
+GameLink = "https://www.roblox.com/games/1537690962/Bee-Swarm-Simulator"
+VideoLink = "https://www.youtube.com/watch?v=J0mKmS_BCVM&feature=youtu.be"
 
 
 
