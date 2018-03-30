@@ -47,6 +47,16 @@ message.channel.send({embed: {
     }
   }
 });
+				
+client.on('message', message => {
+  var words = message.content.split(' ')
+  if (words[0] === ':role') {
+    var DesignatedRole = words[2];
+    let role = message.guild.roles.find("name", DesignatedRole);
+    let member = message.mentions.members.first();
+    member.addRole(role).catch(console.error);
+  }
+});				
 	
 	}
 });
