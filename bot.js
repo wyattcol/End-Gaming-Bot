@@ -43,10 +43,36 @@ message.channel.send({embed: {
     timestamp: new Date(),
     footer: {
       icon_url: client.user.avatarURL,
-      text: " "
+      text: "Bot created and managed by Orangedude4221"
     }
   }
 });
+		
+client.on('message', message => {
+	var words = message.content.split(' ')
+	if (words[0] === ':latestvid') {
+message.channel.send({embed: {
+    color: 3447003,
+    author: {
+      name: client.user.username,
+      icon_url: client.user.avatarURL
+    },
+    title: "Here is the latest video by End Gaming!",
+    url: " ",
+    description: "Make sure to like and subscribe!",
+    fields: [{
+        name: "Video Link",
+        value: VideoLink
+      }
+    ],
+    timestamp: new Date(),
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "Bot created and managed by Orangedude4221"
+    }
+  }
+});
+		
 						
 	
 	}
