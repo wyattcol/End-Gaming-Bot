@@ -6,9 +6,9 @@ const token = 'NDI3NzgxODM0NjE3NjUxMjEw.DZrqUA.l5F8cuj1vlK4PB0gfanhQIIB7j8';
 
 
 
-ScriptLink = "LT GUI http://velociterium.com/9t8W"
-GameLink = "https://www.roblox.com/games/13822889/Lumber-Tycoon-2"
-VideoLink = "https://www.youtube.com/watch?v=lZl-RIvENeI&feature=youtu.be"
+ScriptLink = "Apocalypse Rising GUI http://zipansion.com/5cSd"
+GameLink = "https://www.roblox.com/games/1600503/Apocalypse-Rising"
+VideoLink = "https://www.youtube.com/watch?v=5C1T19MZAHA&feature=youtu.be"
 
 
 
