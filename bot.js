@@ -6,9 +6,9 @@ const token = 'NDI3NzgxODM0NjE3NjUxMjEw.DZrqUA.l5F8cuj1vlK4PB0gfanhQIIB7j8';
 
 
 
-ScriptLink = "Apocalypse Rising GUI http://zipansion.com/5cSd"
-GameLink = "https://www.roblox.com/games/1600503/Apocalypse-Rising"
-VideoLink = "https://www.youtube.com/watch?v=5C1T19MZAHA&feature=youtu.be"
+ScriptLink = "Mining Simulator Script http://zipansion.com/93fw"
+GameLink = "https://www.roblox.com/games/1417427737/NEW-PETS-Mining-Simulator"
+VideoLink = "https://www.youtube.com/watch?v=sUcQMS-YXNE&feature=youtu.be"
 
 
 
