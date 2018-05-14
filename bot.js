@@ -15,9 +15,55 @@ VideoLink = "https://www.youtube.com/watch?v=sUcQMS-YXNE&feature=youtu.be"
 
 
 
-client.on('ready', () => {
-  console.log('I am ready!');
+//Post Updated Message Start
+client.on("ready", () => {
+
+    client.channels.find("name", "bot-commands").send({
+        embed: {
+
+            color: 3066993,
+
+            author: {
+
+                name: client.user.username,
+
+                icon_url: client.user.avatarURL
+
+            },
+
+            title: "The bot has updated!",
+
+            url: "https://discord.gg/8seFVK",
+
+            description: "The End Gaming bot recieved an update.",
+
+            fields: [{
+
+                    name: "Test Message",
+
+                    value: "Test Message Description"
+
+                }
+
+            ],
+
+            timestamp: new Date(),
+
+            footer: {
+
+                icon_url: client.user.avatarURL,
+
+                text: "Bot created and managed by Orangedude4221"
+
+            }
+
+        }
+
+    });
+
 });
+//Post Updated Message End
+
 
 client.on('message', message => {
 	var words = message.content.split(' ')
