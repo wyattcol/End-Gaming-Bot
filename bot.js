@@ -99,7 +99,7 @@ message.channel.send({embed: {
 
 //Request Script Start
 client.on('message', words => {
-  if (words[0] === ':requestscript') {
+  if (words.content[0] === ':requestscript') {
   	client.users.get('308212533309865996').send("Test")
   }
 });
