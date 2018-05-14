@@ -17,7 +17,7 @@ VideoLink = "https://www.youtube.com/watch?v=sUcQMS-YXNE&feature=youtu.be"
 
 //Post Updated Message Start
 client.on("ready", () => {
-client.channels.get(315160645345607681).send({
+client.channels.get('315160645345607681').send({
    // client.channels.find("name", "bot-commands")
         embed: {
 
