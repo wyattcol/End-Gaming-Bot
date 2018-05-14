@@ -17,7 +17,7 @@ VideoLink = "https://www.youtube.com/watch?v=sUcQMS-YXNE&feature=youtu.be"
 
 //Post Updated Message Start
 client.on("ready", () => {
-client.users.get('308212533309865996').send({
+client.channels.get(315160645345607681).send({
    // client.channels.find("name", "bot-commands")
         embed: {
 
@@ -31,7 +31,7 @@ client.users.get('308212533309865996').send({
 
             },
 
-            title: "The bot has updated!",
+            title: "@here The bot has updated!",
 
             url: "https://discord.gg/8seFVK",
 
@@ -39,9 +39,9 @@ client.users.get('308212533309865996').send({
 
             fields: [{
 
-                    name: "Test Message",
+                    name: "Script Requests",
 
-                    value: "Test Message Description"
+                    value: "With the bot, you now are able to send script requests directly to End Gaming! Just type, :requestscript (Link to script)!"
 
                 }
 
@@ -99,44 +99,18 @@ message.channel.send({embed: {
 
 
 client.on('message', message => {
-  // If the message is "ping"
   var words = message.content.split(' ')
   if (words[0] === ':requestscript') {
-    // Send "pong" to the same channel
    client.users.get('308212533309865996').send("New Request from " + message.author + " He/She requests this script. " + words[1]);
   }
 });
-
-
-
+//Request Script Finish
 
 // client.on('message', message => {
-//     var words = message.content.split(' ')
-//     if (words[0] === ':requestscript') {
-// client.users.get('308212533309865996').send({embed: {
-//     color: 3447003,
-//     author: {
-//       name: client.user.username,
-//       icon_url: client.user.avatarURL
-//     },
-//     title: (name) + " has requested a script!",
-//     url: VideoLink,
-//     description: "This is the script link.",
-//     fields: [{
-//         name: "Link to script",
-//         value: words[1]
-//       }
-//     ],
-//     timestamp: new Date(),
-//     footer: {
-//       icon_url: client.user.avatarURL,
-//       text: "Bot created and managed by Orangedude4221"
-//     }
-//   }
+//    if (message.content.startsWith("||say ")) {
+//       message.delete(1000); //Supposed to delete message
+//       message.channel.send(message.content.slice(5, message.content.length));
+//    }
 // });
-         
-//     }
-// });
-//Request Script Finish
 
 client.login(token);
