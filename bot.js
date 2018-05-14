@@ -97,53 +97,13 @@ message.channel.send({embed: {
 	}
 });
 
-//Request Script Start
+
 client.on('message', message => {
-var words = message.content.split(' ')
-  if (words.[0] === ':requestscript') {
-  	client.users.get('308212533309865996').send({
-   // client.channels.find("name", "bot-commands")
-        embed: {
-
-            color: 3066993,
-
-            author: {
-
-                name: client.user.username,
-
-                icon_url: client.user.avatarURL
-
-            },
-
-            title: "The bot has updated!",
-
-            url: "https://discord.gg/8seFVK",
-
-            description: "The End Gaming bot recieved an update.",
-
-            fields: [{
-
-                    name: "Test Message",
-
-                    value: "Test Message Description"
-
-                }
-
-            ],
-
-            timestamp: new Date(),
-
-            footer: {
-
-                icon_url: client.user.avatarURL,
-
-                text: "Bot created and managed by Orangedude4221"
-
-            }
-
-        }
-
-    });
+  // If the message is "ping"
+  var words = message.content.split(' ')
+  if (words[0] === ':requestscript') {
+    // Send "pong" to the same channel
+   client.users.get('308212533309865996').send("New Request!");
   }
 });
 
