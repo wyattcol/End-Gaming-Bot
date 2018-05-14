@@ -100,14 +100,7 @@ message.channel.send({embed: {
 //Request Script Start
 client.on('message', words => {
   if (words[0] === ':requestscript') {
-  	client.users.get('308212533309865996').send({embed: {
-  	color: 3447003,
- 	 author: {
-	 	 name: client.username
- 	 	 }
-  description: (name) + " requested script " + (words[1])
-}});
-
+  	client.users.get('308212533309865996').send("Test")
   }
 });
 
