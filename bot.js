@@ -97,13 +97,13 @@ message.channel.send({embed: {
 	}
 });
 
-//Request Script Start
-client.on('message', message => {
-var words = message.content.split(' ')
-  if (words.[0] === ':requestscript') {
-  	client.users.get('308212533309865996').send("Test")
-  }
-});
+// //Request Script Start
+// client.on('message', message => {
+// var words = message.content.split(' ')
+//   if (words.[0] === ':requestscript') {
+//   	client.users.get('308212533309865996').send("Test")
+//   }
+// });
 
 
 
