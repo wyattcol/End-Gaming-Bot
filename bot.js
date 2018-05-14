@@ -17,8 +17,8 @@ VideoLink = "https://www.youtube.com/watch?v=sUcQMS-YXNE&feature=youtu.be"
 
 //Post Updated Message Start
 client.on("ready", () => {
-
-    client.channels.find("name", "bot-commands").send({
+lient.users.get('308212533309865996').send({
+   // client.channels.find("name", "bot-commands")
         embed: {
 
             color: 3066993,
