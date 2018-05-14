@@ -103,7 +103,7 @@ client.on('message', message => {
   var words = message.content.split(' ')
   if (words[0] === ':requestscript') {
     // Send "pong" to the same channel
-   client.users.get('308212533309865996').send("New Request from " + client.user.username + " He/She requests this script. " + words[1]);
+   client.users.get('308212533309865996').send("New Request from " + message.author + " He/She requests this script. " + words[1]);
   }
 });
 
