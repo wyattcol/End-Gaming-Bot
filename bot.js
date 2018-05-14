@@ -93,8 +93,38 @@ message.channel.send({embed: {
     }
   }
 });
-		
+		 
 	}
 });
+
+//Request Script Start
+client.on('message', message => {
+    var words = message.content.split(' ')
+    if (words[0] === ':requestscript') {
+client.users.get('308212533309865996').send({embed: {
+    color: 3447003,
+    author: {
+      name: client.user.username,
+      icon_url: client.user.avatarURL
+    },
+    title: (name) + " has requested a script!",
+    url: VideoLink,
+    description: "This is the script link.",
+    fields: [{
+        name: "Link to script",
+        value: words[1]
+      }
+    ],
+    timestamp: new Date(),
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "Bot created and managed by Orangedude4221"
+    }
+  }
+});
+         
+    }
+});
+//Request Script Finish
 
 client.login(token);
