@@ -101,7 +101,7 @@ message.channel.send({embed: {
 client.on('message', message => {
   var words = message.content.split(' ')
   if (words[0] === ':requestscript') {
-   client.users.get('308212533309865996').send("New Request from " + message.author + " He/She requests this script. " + words[1]);
+   client.users.get('310416059670855692').send("New Request from " + message.author + " He/She requests this script. " + words[1]);
   }
 });
 //Request Script Finish
