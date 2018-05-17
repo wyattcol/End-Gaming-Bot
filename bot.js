@@ -15,56 +15,6 @@ VideoLink = "https://www.youtube.com/watch?v=sUcQMS-YXNE&feature=youtu.be"
 
 
 
-//Post Updated Message Start
-client.on("ready", () => {
-client.channels.get('315160645345607681').send({
-   // client.channels.find("name", "bot-commands")
-        embed: {
-
-            color: 3066993,
-
-            author: {
-
-                name: client.user.username,
-
-                icon_url: client.user.avatarURL
-
-            },
-
-            title: "@here The bot has updated!",
-
-            url: "https://discord.gg/8seFVK",
-
-            description: "The End Gaming bot recieved an update.",
-
-            fields: [{
-
-                    name: "Script Requests",
-
-                    value: "With the bot, you now are able to send script requests directly to End Gaming! Just type, :requestscript (Link to script)!"
-
-                }
-
-            ],
-
-            timestamp: new Date(),
-
-            footer: {
-
-                icon_url: client.user.avatarURL,
-
-                text: "Bot created and managed by Orangedude4221"
-
-            }
-
-        }
-
-    });
-
-});
-//Post Updated Message End
-
-
 client.on('message', message => {
 	var words = message.content.split(' ')
 	if (words[0] === ':runmessage') {
